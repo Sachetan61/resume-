@@ -1,0 +1,166 @@
+*{
+    border:200px;
+border-color: black;
+    margin:0px;
+    padding:0px;
+    background-color:white(255, 255, 255);
+    /* overflow-y: hidden;??? */
+    /* overflow-x: hidden; */
+    /* padding-left: 0px; */
+
+}
+.para{
+    border: 200px;
+
+      
+    padding-left:30px;
+}
+.profile{
+    border: 20px;
+    border-radius: 45%;
+    align-items: left;
+    height: 191px;
+    width: 200px;
+    justify-self: center;
+    /* margin-left: 10px; */
+    padding-left: 25px;
+
+}
+.location{
+    width:20px;
+    height:20px;
+    background-color:white;
+}
+
+hr{
+    padding:0px;
+    width: 378px;
+}
+
+.right{
+align-items:right;
+}
+.container{
+    border:200px;
+    display:flex;
+    /* position:relative; */
+    max-width: 1000px;
+    min-height: 1000%;
+    min-width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-width: 100vh;
+    padding:20px;
+}
+.leftside{
+    /* z-index: 999; */
+    
+    border-color: rgb(165, 35, 35);
+    border-radius: 50px;
+    /* background-color:rgb(255, 255, 255); */
+
+    background-image: linear-gradient(to right,#4c99b2,#fff7f7);
+   background-color: lightblue;
+    padding-bottom:30px;
+    
+
+}
+
+  
+
+.rightside{
+    position: relative;
+    padding:30px;
+    padding-top:15px;
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right,#ffffff,#d2b6ff);
+    border-radius:0px 50px 50px 0px;
+
+
+
+}
+.name{
+    padding:20px;
+    font-size: 2.5rem;
+    font-style: bold;
+    /* background-color:white; */
+}
+.skills{
+    
+    font-size:2.5rem;
+    padding-left: 21px;
+}
+.sk{
+    
+    font-size: 3rem;
+    padding-top: 20px;
+    padding-left: 21px;
+    padding-bottom:15px;
+}
+.edu{
+    padding-top: 30px;
+}
+.title{
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.work{
+    padding-bottom: 10px;
+}
+h2{
+    padding-bottom: 12px;
+}
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color:black;
+    border-radius:50% ;
+    display: inline-block;
+    color: black;
+}
+legend{
+    height: 100%;
+    width: 100%;
+   border: 50px;
+    border-radius:50%;
+}
+.disct{
+    width:75%;
+    padding-left:21px;
+    font-size: 2.5rem;
+    
+}
+.pro{
+    padding-left: 21px;
+}  
+.info{
+    padding:0px;
+    padding-left: 21px;
+    padding-bottom: 15px;
+}
+    .r {
+        width: 78%;
+                border: 15px solid #aebec7;
+        padding: 50px;
+        margin: 20px;
+        border-color: #f0c39e;
+    }
+.t{
+    width: 78%;
+    border: 15px solid #aebec7;
+    padding: 50px;
+    margin: 20px;
+    border-color: #0d627d;
+
+}
+
+@media (max-width: 998px){
+    html{
+        font-size:55%;
+    }
+}
